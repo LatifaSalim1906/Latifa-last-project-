@@ -1,50 +1,49 @@
 *Evaluate a News Article with Natural Language Processing - Latifa project*
 
 
-#Project Overview
+#Project Overview<br/>
 This project utilizes Natural Language Processing (NLP) techniques to evaluate news articles. The app integrates a sentiment analysis API to determine the sentiment and subjectivity of a given text. It demonstrates practical applications of Webpack, Sass, service workers, API usage, and unit testing.
 
 --------------------------------------------------------------------------
-#Features
-•	Sentiment Analysis: Evaluate the sentiment and subjectivity of text using an external API.
-•	Responsive Design: Styling with Sass for a clean and responsive user interface.
-•	Offline Capability: Service workers enable functionality even without an internet connection.
-•	Unit Testing: Ensure the robustness of code with Jest tests.
-•	Production Optimization: Webpack optimizations for performance and small bundle sizes.
+#Features<br/>
+•	Sentiment Analysis: Evaluate the sentiment and subjectivity of text using an external API.<br/>
+•	Responsive Design: Styling with Sass for a clean and responsive user interface.<br/>
+•	Unit Testing: Ensure the robustness of code with Jest tests.<br/>
+•	Production Optimization: Webpack optimizations for performance and small bundle sizes.<br/>
 
 --------------------------------------------------------------------------
 
-Getting Started
-
+#Getting Started<br/>
 #Prerequisites<br/>
-1- Node.js (latest LTS version) v22.12.0
-2- npm (comes with Node.js) 10.9.0
-
+<b>
+1- Node.js version :  v22.12.0<br>
+2- npm  version : 10.9.0
+</b>
+<br/><br/>
 #Installation
 1- Clone the Repository:<br/>
-git clone -b refresh-2019 <repository _url>
-
+<b>git clone -b refresh-2019 <repository _url></b>
+<br/><br/>
 2- Navigate to the Project Directory:<br/>
-cd <project_directory>
-
+<b>cd <project_directory></b>
+<br/><br/>
 3. Install Dependencies:<br/>
-npm install
-
-#Running the Development Server
-To start the application in development mode:
-npm run start
-
-The app will be accessible at http://localhost:8080.
+<b>npm install</b>
+<br/><br/>
+4-Running the Development Server
+To start the application in development mode:<br/>
+<b>npm run start</b>
+<br/><br/>
+5- The app will be accessible at http://localhost:8080.
 Building for Production
-
-To create a production build:
-npm run build
-
-#Environment Setup
-1.	Create a .env file in the root directory.
-2.	Add your API credentials:
-API_KEY=your_api_key
-3.	Ensure .env is listed in .gitignore to secure sensitive data.
+<br/><br/>
+6- To create a production build:<br/>
+<b>npm run build</b>
+<br/><br/>
+#Environment Setup<br/>
+1-Create a .env file in the root directory.<br/>
+2-Add your API credentials:API_KEY=your_api_key<br/>
+3-Ensure .env is listed in .gitignore to secure sensitive data.<br/>
 
    
 --------------------------------------------------------------------------
