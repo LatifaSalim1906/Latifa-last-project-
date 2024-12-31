@@ -21,24 +21,18 @@ This project utilizes Natural Language Processing (NLP) techniques to evaluate n
 </b>
 <br/><br/>
 <h4>#Installation</h4>
-1- Clone the Repository:<br/>
-<b>git clone -b refresh-2019 <repository _url></b>
+1- dawnload the repostry 
 <br/><br/>
-2- Navigate to the Project Directory:<br/>
-<b>cd <project_directory></b>
+2 - Install Dependencies:<br/>
+npm install
 <br/><br/>
-3. Install Dependencies:<br/>
-<b>npm install</b>
+3-Running the Development Server To start the application in development mode:<br/>
+npm run start
 <br/><br/>
-4-Running the Development Server
-To start the application in development mode:<br/>
-<b>npm run start</b>
-<br/><br/>
-5- The app will be accessible at http://localhost:8080.
-Building for Production
-<br/><br/>
-6- To create a production build:<br/>
-<b>npm run build</b>
+4- The app will be accessible at http://localhost:8080. Building for Production<br/>
+<br/>
+5- To create a production build:<br/>
+npm run build
 <br/><br/>
 <h4>#Environment Setup<br/></h4>
 1-Create a .env file in the root directory.<br/>
