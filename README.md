@@ -23,17 +23,14 @@ This project utilizes Natural Language Processing (NLP) techniques to evaluate n
 <h4>#Installation</h4>
 1- dawnload the repostry 
 <br/><br/>
-2 - Install Dependencies:<br/>
-<b>npm install</b>
-<br/><br/>
+2 - <b>npm install</b> is used Install Dependencies:<br/>
+<br/>
 3- <b>npm run start</b>  is used to run the Node.js server in production mode<br/><br/>
-4-Running the Development Server To start the application in development mode:<br/>
-<b>npm run dev</b>
-<br/><br/>
+4-<b>npm run build-dev</b> is used for development<br/>
+<br/>
 5- The app will be accessible at <b>http://localhost:8080</b> Building for Production<br/>
 <br/>
-6- To create a production build:<br/>
-<b>npm run build</b>
+6- <b>npm run build-prod</b> is used to create an optimized production build<br/>
 <br/><br/>
 <h4>#Environment Setup<br/></h4>
 1-Create a .env file in the root directory.<br/>
