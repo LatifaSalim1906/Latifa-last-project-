@@ -1,7 +1,7 @@
 import { checkUrl } from './clientUrlCheck';
-//const form = document.getElementById('webForm');
- //expect(form).not.toBeNull();
-//form.addEventListener('submit', handleSubmitNow);
+const form = document.getElementById('webForm');
+expect(form).not.toBeNull();
+form.addEventListener('submit', handleSubmitNow);
 
 
 async function handleSubmitNow(event) {
