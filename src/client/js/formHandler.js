@@ -1,6 +1,6 @@
 import { checkUrl } from './clientUrlCheck';
 const form = document.getElementById('webForm');
-expect(form).not.toBeNull();
+//expect(form).not.toBeNull();
 form.addEventListener('submit', handleSubmitNow);
 
 
